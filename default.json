@@ -41,6 +41,11 @@
       "semanticCommitType": "fix"
     },
     {
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["dd-trace"],
+      "minimumReleaseAge": "14 days"
+    },
+    {
       "excludePackageNames": ["@koa/cors", "@seek/ie-logging"],
       "matchUpdateTypes": ["major"],
 
